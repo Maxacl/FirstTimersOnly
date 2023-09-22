@@ -1,24 +1,37 @@
 # FirstTimersOnly
 
-This repositories is for the first timers only. Here you can learn how to pull request, create and merge branch. 
+This repository has been designed for newcomers who are just beginning their journey into the Open-Source realm! If you're interested in: 
 
-# Step to contribute in any repository
+- Making your first pull request,
+- Creating branches and
+- Merging your code
 
-1) Fork and clone the repository.
+Then your're in the right repo!
+  
+# Steps to Commit
+
+1) **fork** and **clone** the Repository:
+   - clone: to clone a repository is to create an exact copy of that original repo. This includes all files, branches and even the 'commit history'.
+   - fork: 'forking' a repository' is typically done on a hosting platform, such as GitHub. This permits you to create your own, personal copy. Any changes/alterations made will only effect your specific copy
+   
     git clone https://github.com/mukesh-srivastav/FirstTimersOnly.git
     cd FirstTimersOnly
 
-2) Make a branch
-   git checkout -b (branch-name)
 
-3)Add your content in a folder
-    i. Add content in their respective folder
-    ii. Save your file.
+3) Create a **branch**:
+      - **branch** When you create a "branch", you are ultimately diverging from the "main" line or "master" branch in order to work on a particular set of changes you're attempting to implement.*
+   
+   git checkout -b <branch-name>
 
-4)Commit your change
+
+4) Save Content/Code to Specified Folder
+
+
+5) Now, **commit** Your Change
 
     git add -A
-    git commit -m "(brief description of what you have changed/fixed)"
+    git commit -m "(provide a brief description of what you have changed/fixed)"
     git push -u origin (branch name)
 
-5) Go and open a pull request from your fork to the master branch of this repository.
+
+6) Go and open a pull request from your fork to the master branch of this repository.
