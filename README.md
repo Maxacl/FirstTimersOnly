@@ -7,19 +7,21 @@ This repository has been designed for newcomers who are just beginning their jou
 - Merging your code
 
 Then your're in the right repo!
+
   
 # Steps to Commit
 
 1) **fork** and **clone** the Repository:
    - clone: to clone a repository is to create an exact copy of that original repo. This includes all files, branches and even the 'commit history'.
-   - fork: 'forking' a repository' is typically done on a hosting platform, such as GitHub. This permits you to create your own, personal copy. Any changes/alterations made will only effect your specific copy
+   - fork: 'forking' a repository' is typically done on a hosting platform, such as GitHub. This permits you to create your own, personal copy. Any changes/alterations made         will only effect your specific copy
    
     git clone https://github.com/mukesh-srivastav/FirstTimersOnly.git
     cd FirstTimersOnly
 
 
+
 3) Create a **branch**:
-      - **branch** When you create a "branch", you are ultimately diverging from the "main" line or "master" branch in order to work on a particular set of changes you're attempting to implement.*
+   - **branch** When you create a "branch", you are ultimately diverging from the "main" line or "master" branch in order to work on a particular set of changes you're     attempting to implement.*
    
    git checkout -b <branch-name>
 
